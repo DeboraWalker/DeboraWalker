@@ -105,8 +105,8 @@ header {font-style:initial;
 
 
 h1 {font-size: 500%;
-    color:rgb(82, 85, 95);
-    font-family:"Montserrat";
+    color: rgb(82, 85, 95);
+    font-family: "Montserrat";
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
@@ -167,7 +167,7 @@ margin: 0px;}
      top: 0;
      left: 0;
      opacity: 0;
-         --duration: 120s;
+         --duration: 80s;
          --count: 12;
 
      animation: fadeA calc(var(--duration)) linear infinite;
@@ -177,10 +177,10 @@ margin: 0px;}
 
 @keyframes fadeA {
     0% {opacity: 0;}
-    3% {opacity: 0;}
+    3% {opacity: 1;}
     5% {opacity: 1;}
-    25% {opacity: 1;}
-    28% {opacity: 0;}
+    15% {opacity: 1;}
+    18% {opacity: 0;}
     100% {opacity: 0;}
 }
 
